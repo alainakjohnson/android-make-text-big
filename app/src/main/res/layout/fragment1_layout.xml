@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/yourText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:hint="@string/YourText"
+            android:inputType="text"
+            android:text="@string/YourText"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Red"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/rseek"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:max="255"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/gheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Green"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/gseek"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:max="255"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/bheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Blue"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/bseek"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:max="255"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@string/submit"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="282dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

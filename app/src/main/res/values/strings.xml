@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ajohnson_bigtext</string>
+    <string name="submit">submit</string>
+    <string name="Red">R</string>
+    <string name="Green">G</string>
+    <string name="Blue">B</string>
+    <string name="YourText">YOUR TEXT</string>
+</resources>
